@@ -1,0 +1,7 @@
+{
+    "deliveryLocation": "Lieu de livraison",
+    "changeDeliveryLocation": "Changer le lieu de livraison",
+    "setDeliveryLocation": "Fixer le lieu de livraison",
+    "zipCode": "Code Postal",
+    "itemAvailability": "La disponibilité des articles varie selon les régions. Pour voir les articles offerts dans votre région, veuillez fournir votre lieu de livraison."
+}

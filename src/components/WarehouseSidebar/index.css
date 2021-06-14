@@ -1,0 +1,31 @@
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font: 100.0%/1.45em Arial, Helvetica, "Helvetica Neue", Roboto, georgia, serif;
+    box-sizing: border-box;
+    overflow-y: scroll;
+  }
+  body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: hsla(0, 0%, 0%, 0.8);
+    font-family: Arial, Helvetica, "Helvetica Neue", Roboto, georgia, serif;
+    font-size: "16px";
+    font-weight: normal;
+    word-wrap: break-word;
+    font-kerning: normal;
+    -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+    -ms-font-feature-settings: "kern", "liga", "clig", "calt";
+    -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+    font-feature-settings: "kern", "liga", "clig", "calt";
+  
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+  }
+  
+  .List {
+    border: 1px solid #d9dddd;
+  }

@@ -1,0 +1,7 @@
+{
+    "deliveryLocation": "Delivery Location",
+    "changeDeliveryLocation": "Change Delivery Location",
+    "setDeliveryLocation": "Set Delivery Location",
+    "zipCode": "ZIP Code",
+    "itemAvailability": "Item availability varies by area. In order to view the products available in your area, please provide your Delivery Location"
+}

@@ -1,0 +1,12 @@
+{
+  "buyinstore_header": "Disponibilité à l’entrepôt",
+  "buyinstore_change_Btn": "Changer d’entrepôt",
+  "buyinstore_set_warehouse": "Choisir un entrepôt pour voir les disponibilités",
+  "buyinstore_set_mywarehouse": "Choisir mon entrepôt",
+  "buyinstore_at_text": "à",
+  "outofstock": "En rupture de stock",
+  "instock": "En stock",
+  "samedaydelivery_header": "Livraison le jour même",
+  "samedaydelivery_price_availability":"Le prix et la disponibilité varient",
+	"samedaydelivery_btn":"Magasiner pour la livraison le jour même maintenant"
+}

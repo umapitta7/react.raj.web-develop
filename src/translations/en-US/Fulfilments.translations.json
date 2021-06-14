@@ -1,0 +1,13 @@
+{
+  "buyinstore_header": "Warehouse Availability",
+  "buyinstore_change_Btn": "Change Warehouse",
+  "buyinstore_set_warehouse": "Select a warehouse to see availability",
+  "buyinstore_set_mywarehouse": "Set My Warehouse",
+  "buyinstore_at_text": "at",
+  "outofstock": "Out of Stock",
+  "instock": "Available",
+  "samedaydelivery_header": "Same-Day Delivery",
+  "samedaydelivery_price_availability":"Prices and Availability Will Vary",
+	"samedaydelivery_btn":"Shop Same-Day Now"
+
+}

@@ -1,0 +1,10 @@
+export const accountHomeUrl = '/AccountHomeView';
+export const myOrdersUrl = '/OrderStatusCmd?fromYear=2021&fromMonth=0&toYear=2021&toMonth=5';
+export const accountDetailsUrl = '/AccountInformationView?identifier=manage-membership';
+export const businessDetailsUrl = '/BusinessDetailsView';
+export const renewMembershipUrl = '/RenewMembershipView';
+export const addressBookUrl = '/AddressBookDisplayView';
+export const paymentMethodsUrl = '/PaymentMethodDisplayView';
+export const costcoPayurl = '/CostcoPayDisplayView';
+export const myListsUrl = '/NonAjaxAccountListDisplayView?listId=.';
+export const communicationPreferenceUrl = '/MemberCommunicationPreferencesView?identifier=communication-preferences';
