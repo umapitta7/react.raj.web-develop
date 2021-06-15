@@ -28,7 +28,7 @@ const locationCatalogAPIUrl = "https://services.vqa2.costco.com:9443/restInvento
 /* eslint-enable prefer-destructuring */
 
 const forageStore = localforage.createInstance({
-  driver: [localforage.INDEXEDDB, localforage.LOCALSTORAGE], // List of drivers used
+  driver: [localforage.INDEXEDDB, localforage.LOCALSTORGE], // List of drivers used
   name: 'CW_warehouseLocator', // Prefix all storage keys to prevent conflicts
 });
 
