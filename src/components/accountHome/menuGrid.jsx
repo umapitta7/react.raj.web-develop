@@ -136,7 +136,8 @@ const menuGridConfig = {
 const Styledlabel = styled(Text)`
   font-size: 16px;
   font-weight: bold;
-  margin-bottom: 12px;
+  margin-bottom: 12px !important;
+  margin-top: 12px !important;
 `
 
 const StyledGridItem = styled.div`
