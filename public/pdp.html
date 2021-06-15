@@ -26,24 +26,36 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Product Details Page</title>
-    <style>
-      #fulfillments{
-        width: 25%;
-        float: right;
-        margin-right: 30px;
-        margin-top: 15px;
-        margin-bottom: 15px;
-      }   
+    <style>        
+      @media (min-width: 769px) {
+        #fulfillments{   
+          width: 25%;
+          float: right;
+          margin-right: 30px;           
+          margin-top: 15px;
+          margin-bottom: 15px;
+        } 
+      }
+      @media only screen and (max-width: 768px) {
+        #fulfillments{        
+          margin-top: 15px;
+          margin-bottom: 15px;
+        } 
+      }
     </style>
   </head>
   <body>
     <script>
-      var reactObj = { // Should be placed in header JSP
-        global: {
-          productType: "ProductBean", // List of types - BundleBean or ProductBean 
-          programType: "3rdPartyDelivery", //  List[InWarehouse, 3rdPartyDelivery,   siteControlledInventory, locationControlledInventory, 2dayDelivery] Only highlighted is in scope
-        },
-      };
+      var reactObj = {
+        global: { 
+          environment: "DEV" 
+        }
+      }; // Should be placed in header JSP        
+     
+    </script>
+    <script>
+       reactObj.global.productType = "ProductBean"; // List of types - BundleBean or ProductBean 
+       reactObj.global.programType = "InWarehouse"; //  List[InWarehouse, 3rdPartyDelivery,   siteControlledInventory, locationControlledInventory, 2dayDelivery] Only highlighted is in scope
     </script>
     <!--WCS component This should be placed in Header-->
 
