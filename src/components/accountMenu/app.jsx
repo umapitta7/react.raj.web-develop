@@ -22,7 +22,7 @@ const AccountMenu = ({ signout }) => {
   });
 
   const handleClose = () => {
-    window.wioEventBus.publish('accountMenu', { accountMenu: false });
+    setOpenDrawer(false);
   };
 
   return (
@@ -33,7 +33,7 @@ const AccountMenu = ({ signout }) => {
         onClose={handleClose}
         style={{ zIndex: '20012' }}
       >
-        <DrawerContent signout={signout} showDivider />
+        <DrawerContent signout={signout} showDivider onClose={handleClose} />
       </Drawer>
     </div>
   );

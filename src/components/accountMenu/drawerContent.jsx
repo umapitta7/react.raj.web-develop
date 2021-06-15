@@ -17,10 +17,10 @@ const StyledBox = styled(Box)`
 `;
 
 const DrawerContent = ({
-  signout, showClose, iconColor, showDivider
+  signout, iconColor, showDivider, onClose
 }) => (
   <StyledBox>
-    <UserInfo showClose={showClose} />
+    <UserInfo onClose={onClose} />
     <Divider />
     <div style={{ paddingBottom: 8 }}>
       <MenuList style={{ paddingBottom: 10 }} iconColor={iconColor} showDivider={showDivider} />
@@ -33,10 +33,12 @@ const DrawerContent = ({
 DrawerContent.propTypes = {
   iconColor: PropTypes.bool,
   showDivider: PropTypes.bool,
-  showClose: PropTypes.bool,
+  onClose: PropTypes.func,
   signout: PropTypes.shape(SignOutShape).isRequired
 };
 
-DrawerContent.defaultProps = { showClose: true, iconColor: true, showDivider: false };
+DrawerContent.defaultProps = {
+  iconColor: true, showDivider: false, onClose: null
+};
 
 export default DrawerContent;
