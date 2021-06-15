@@ -1,0 +1,10 @@
+{
+  "version": "v1",
+  "packages": {
+    "forge-components": {
+      "signature": "d57a19717cc629523f7eca435753cf87",
+      "file": true,
+      "replaced": "^0.1.45"
+    }
+  }
+}

@@ -11,7 +11,7 @@
     "cds-tokens": "^0.0.6",
     "clsx": "^1.1.1",
     "date-fns": "^2.22.1",
-    "forge-components": "^0.1.45",
+    "forge-components": "^0.1.46",
     "i18next": "^20.2.4",
     "localforage": "^1.9.0",
     "lodash": "^4.17.21",
