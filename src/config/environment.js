@@ -1,7 +1,16 @@
+import { Utils } from '../utils';
 import { environmentDev } from './environment_dev';
 import { environmentProd } from './environment_prod';
 
-const env = process.env.NODE_ENV === 'production' ? environmentProd : environmentDev;
+/* Envionment data will be recieved from WCS through window object */
+const envJSON = {
+  DEV: environmentDev,
+  PROD: environmentProd
+};
+let env = envJSON[window.reactObj.global.environment];
+if (Utils.isEmpty(env)) {
+  env = envJSON.PROD;
+}
 
 console.log('env', env);
 
