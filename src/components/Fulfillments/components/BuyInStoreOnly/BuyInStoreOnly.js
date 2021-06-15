@@ -2,6 +2,7 @@ import './buyInstoreonly.css';
 import Text from 'forge-components/dist/components/Text/';
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+import CsdButton from 'forge-components/dist/components/Button/';
 import { CookieHandler } from '../../../../utils/CookieHandler';
 import Availability from './Availability';
 import { Utils } from '../../../../utils';
@@ -61,13 +62,13 @@ function BuyInStoreOnly(props) {
         ? (
           <>
             <Availability wareHouseInfo={wareHouseInfo} />
-            <div><button className="chnagebtn" type="button" onClick={handleChnageClick}>{t('buyinstore_change_Btn')}</button></div>
+            <div><CsdButton className="chnagebtn" type="button" onClick={handleChnageClick}>{t('buyinstore_change_Btn')}</CsdButton></div>
           </>
         )
         : (
           <>
             <Text as="p" className="bodyText">{t('buyinstore_set_warehouse')}</Text>
-            <button className="setbtn" type="button" onClick={handleSetClick}>{t('buyinstore_set_mywarehouse')}</button>
+            <CsdButton className="setbtn" type="button" onClick={handleSetClick}>{t('buyinstore_set_mywarehouse')}</CsdButton>
           </>
         )}
     </div>
