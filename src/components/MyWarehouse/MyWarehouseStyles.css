@@ -23,3 +23,14 @@
 .header-right-links {
     right: 0;
 }
+
+/* .myWarehouse-padding {
+    padding-left: 4px;
+    padding-right: 14px;   
+}  */
+@media (max-width: 568px) { 
+    .myWarehouse-padding   
+    {        
+        padding-right: 0px;  
+    }  
+}

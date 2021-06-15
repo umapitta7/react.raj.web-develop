@@ -1,5 +1,5 @@
 .instacartimg img {
-  width: 200px;
+  width:55%;
 }
 .instacartimg {
   text-align: center;
@@ -13,7 +13,8 @@
 }
 .btnalign {
   margin: 10px auto;
-  width: 185px;
+  width: 100%;
+  text-align: center;
 }
 .btnalign button {
   font-size: 14px;

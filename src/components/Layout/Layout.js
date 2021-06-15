@@ -7,7 +7,7 @@ import { SignOutShape } from '../common/propTypes';
 
 const Layout = ({ children, signout }) => (
   <Box display="Flex">
-    <DrawerContent signout={signout} showClose={false} iconColor={false} />
+    <DrawerContent signout={signout} iconColor={false} />
     {children}
   </Box>
 );

@@ -7392,10 +7392,10 @@ forever-agent@~0.6.1:
   resolved "https://registry.yarnpkg.com/forever-agent/-/forever-agent-0.6.1.tgz#fbc71f0c41adeb37f96c577ad1ed42d8fdacca91"
   integrity sha1-+8cfDEGt6zf5bFd60e1C2P2sypE=
 
-forge-components@^0.1.45:
-  version "0.1.45"
-  resolved "https://registry.yarnpkg.com/forge-components/-/forge-components-0.1.45.tgz#265b9bd7d8ad1da936bf3f53d8a16e42cd47093b"
-  integrity sha512-mRLS3h75eRSPK5HKn0V94ny5WtTSfuedaVU/n5Ivd7/dreoTinPKlzc8tqX4ZLN7mCfVnkSpVQ1u74zkRPf2ow==
+forge-components@^0.1.46:
+  version "0.1.46"
+  resolved "https://registry.yarnpkg.com/forge-components/-/forge-components-0.1.46.tgz#69b3a1276a522f53ca9d8629a6d60e0d98ff6c76"
+  integrity sha512-DiOtviQjtJFkpEvEDixdiMMO8Uw4IowaFyLrTZWFmmak06ziiH2zaLJsqSOGwwTLbZnkOiNdPAPLneamRUg/ow==
   dependencies:
     "@etchteam/storybook-addon-status" "^3.0.0"
     "@material-ui/core" "^4.11.0"
