@@ -48,7 +48,7 @@ const StyledIconFlexBoxGridRow = styled(FlexBoxGridRow)`
 `;
 
 const SetAsMyWarehouseWrapper = styled(FlexBoxGridRow)`
-  width: 320px;
+  width: 300px;
   height: 75px;
   margin-top: 16px;
   margin-left: 0px;

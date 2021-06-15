@@ -143,10 +143,6 @@ const MyWarehouseSelection = () => {
   return (
     <Grid
       fluid
-      style={{
-        paddingLeft: '4px',
-        paddingRight: '14px'
-      }}
     >
       <Row>
         <div>{t('My Warehouse')}</div>

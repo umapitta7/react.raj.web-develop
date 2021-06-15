@@ -14,7 +14,7 @@ function SameDayDelivery(props) {
     const { sameDayDelivery } = props;
     const wareHouseCookie = CookieHandler.get('WAREHOUSEDELIVERY_WHS');
     // eslint-disable-next-line max-len
-    const shipToLocation = wareHouseCookie.shipToLocation ? wareHouseCookie.shipToLocation : CookieHandler.get('invCheckPostalCode');
+    const shipToLocation = !Utils.isEmpty(wareHouseCookie?.shipToLocation) ? wareHouseCookie.shipToLocation : CookieHandler.get('invCheckPostalCode');
     const pageName = 'pdp';
     let shortDes = sameDayDelivery.shortDes.replace(/\./g, '%2E');
     shortDes = Utils.encodeUri(shortDes);

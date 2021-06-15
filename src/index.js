@@ -38,13 +38,14 @@ if (!Utils.isEmpty(widegets)) {
       ReactDOM.render(
         <React.StrictMode>
           <Suspense fallback={(
-            <div className="skeleton-card">
-              <div className="skeleton-description">
-                <div className="skeleton-line skeleton-line-1" />
-                <div className="skeleton-line skeleton-line-2" />
-                <div className="skeleton-line skeleton-line-3" />
-              </div>
-            </div>
+            // <div className="skeleton-card">
+            //   <div className="skeleton-description">
+            //     <div className="skeleton-line skeleton-line-1" />
+            //     <div className="skeleton-line skeleton-line-2" />
+            //     <div className="skeleton-line skeleton-line-3" />
+            //   </div>
+            // </div>
+            <div />
           )}
           >
             <StyledThemeProvider theme={StyledCostcoTheme}>
