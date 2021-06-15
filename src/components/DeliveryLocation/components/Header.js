@@ -9,8 +9,7 @@ import MyWarehouseSelection from '../../MyWarehouse/components/myWarehouseSelect
 
 const Wrapper = styled.div`
     width: 100%;
-    margin-top: 4px;
-    padding: 0 15px 8px 15px;
+    margin-top: 4px;    
     font-size: 12px;
 `;
 
@@ -33,12 +32,10 @@ const Header = ({ onChangeDeliveryLocation, selectedZip, isGrocery, ...warehouse
         <Wrapper>
             <Grid fluid>
                 <Row>
-                    <Col xs={12} sm={6} lg={6} xl={6} style={{ paddingLeft: "0" }}>
+                    <Col xs={12} sm={6} lg={6} xl={6}>
                         <Row className={"header-spacing"}>
                         <MyWarehouseSelection />  
-                            <Grid fluid style= {{                
-                                  paddingLeft: "10px"                                                
-                            }} >
+                            <Grid fluid className="header-padding">
                             <Row>
                                 {t("deliveryLocation")}
                             </Row>
